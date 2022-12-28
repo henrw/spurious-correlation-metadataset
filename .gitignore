@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+__pycache__/
+data
+**/*.npy
+*.tar.gz
+
+basic/mnist/samples/*
+basic/cifar10/cifar-10-batches-py

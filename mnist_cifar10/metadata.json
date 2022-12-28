@@ -1,0 +1,41 @@
+{
+    "labels": [
+        "car",
+        "truck"
+    ],
+    "spurious": [
+        "0",
+        "1"
+    ],
+    "resolution": "64x32",
+    "total_num": {
+        "train": {
+            "car": 5000,
+            "truck": 5000,
+            "0": 5923,
+            "1": 6742
+        },
+        "test": {
+            "car": 1000,
+            "truck": 1000,
+            "0": 980,
+            "1": 1135
+        }
+        
+    },
+    "files": {
+        "train": {
+            "car": "./basic/cifar10/train_car_images.npy",
+            "truck": "./basic/cifar10/train_truck_images.npy",
+            "0": "./basic/mnist/train_images_0.npy",
+            "1": "./basic/mnist/train_images_1.npy"
+        },
+        "test": {
+            "car": "./basic/cifar10/test_car_images.npy",
+            "truck": "./basic/cifar10/test_truck_images.npy",
+            "0": "./basic/mnist/test_images_0.npy",
+            "1": "./basic/mnist/test_images_1.npy"
+        }        
+       
+    }
+}

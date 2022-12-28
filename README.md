@@ -1,2 +1,7 @@
 # spurious-correlation-metadataset
-Meta-dataset for research for spurious correlation
+Meta-dataset for spurious correlation research
+
+## MNIST-CIFAR10
+![Demo](demo.png)
+
+Please check mnist_cifar10.ipynb
